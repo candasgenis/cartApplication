@@ -1,0 +1,117 @@
+[
+  {
+    "command": "addItem",
+    "result": true,
+    "message": "Item with itemId 2 added!"
+  },
+  {
+    "command": "addItem",
+    "result": true,
+    "message": "Item with itemId 1 added!"
+  },
+  {
+    "command": "addItem",
+    "result": true,
+    "message": "Item with itemId 5 added!"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Total quantity of items in the cart cannot exceed 30!"
+  },
+  {
+    "command": "addItem",
+    "result": true,
+    "message": "Item with itemId 2 added!"
+  },
+  {
+    "command": "addItem",
+    "result": true,
+    "message": "Item with itemId 3 added!"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Exceeded max quantity of items in the cart! (For digital items, max quantity is 5. For default items, max quantity is 10.)"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Exceeded max quantity of items in the cart! (For digital items, max quantity is 5. For default items, max quantity is 10.)"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Exceeded max quantity of items in the cart! (For digital items, max quantity is 5. For default items, max quantity is 10.)"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Exceeded max quantity of items in the cart! (For digital items, max quantity is 5. For default items, max quantity is 10.)"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Exceeded max quantity of items in the cart! (For digital items, max quantity is 5. For default items, max quantity is 10.)"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Digital Items can only be added with digital items!"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Digital Items can only be added with digital items!"
+  },
+  {
+    "command": "addVasItemToItem",
+    "result": true,
+    "message": "Vas item with itemId 2 added!"
+  },
+  {
+    "command": "addVasItemToItem",
+    "result": true,
+    "message": "Vas item with itemId 2 added!"
+  },
+  {
+    "command": "addVasItemToItem",
+    "result": false,
+    "message": "Total quantity of items in the cart cannot exceed 30!"
+  },
+  {
+    "command": "addVasItemToItem",
+    "result": false,
+    "message": "Total quantity of items in the cart cannot exceed 30!"
+  },
+  {
+    "command": "displayCart",
+    "result": true,
+    "message": "{\"items\":[{\"itemId\":2,\"categoryId\":1001,\"sellerId\":2000,\"price\":9000,\"quantity\":10,\"vasItems\":[{\"itemId\":4000,\"categoryId\":3242,\"sellerId\":5003,\"price\":2600,\"quantity\":1},{\"itemId\":4002,\"categoryId\":3242,\"sellerId\":5003,\"price\":300,\"quantity\":1}]},{\"itemId\":1,\"categoryId\":3004,\"sellerId\":3000,\"price\":1000,\"quantity\":10,\"vasItems\":[]},{\"itemId\":5,\"categoryId\":3003,\"sellerId\":3001,\"price\":30000,\"quantity\":7,\"vasItems\":[]},{\"itemId\":3,\"categoryId\":1001,\"sellerId\":2000,\"price\":9000,\"quantity\":1,\"vasItems\":[]}],\"totalPrice\":311400,\"appliedPromotionId\":5676,\"totalDiscount\":10500}"
+  },
+  {
+    "command": "removeItem",
+    "result": true,
+    "message": "Item with itemId 4002 removed!"
+  },
+  {
+    "command": "displayCart",
+    "result": true,
+    "message": "{\"items\":[{\"itemId\":2,\"categoryId\":1001,\"sellerId\":2000,\"price\":9000,\"quantity\":10,\"vasItems\":[{\"itemId\":4000,\"categoryId\":3242,\"sellerId\":5003,\"price\":2600,\"quantity\":1}]},{\"itemId\":1,\"categoryId\":3004,\"sellerId\":3000,\"price\":1000,\"quantity\":10,\"vasItems\":[]},{\"itemId\":5,\"categoryId\":3003,\"sellerId\":3001,\"price\":30000,\"quantity\":7,\"vasItems\":[]},{\"itemId\":3,\"categoryId\":1001,\"sellerId\":2000,\"price\":9000,\"quantity\":1,\"vasItems\":[]}],\"totalPrice\":311100,\"appliedPromotionId\":5676,\"totalDiscount\":10500}"
+  },
+  {
+    "command": "addItem",
+    "result": false,
+    "message": "Exceeded max quantity of items in the cart! (For digital items, max quantity is 5. For default items, max quantity is 10.)"
+  },
+  {
+    "command": "resetCart",
+    "result": true,
+    "message": "Cart reset!"
+  },
+  {
+    "command": "displayCart",
+    "result": true,
+    "message": "{\"items\":[],\"totalPrice\":0,\"appliedPromotionId\":1232,\"totalDiscount\":250}"
+  }
+]
